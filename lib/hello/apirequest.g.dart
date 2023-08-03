@@ -6,7 +6,6 @@ part of 'apirequest.dart';
 // RetrofitGenerator
 // **************************************************************************
 
-
 class _ApiRequest implements ApiRequest {
   _ApiRequest(this._dio, {required this.baseUrl}) {
     ArgumentError.checkNotNull(_dio, '_dio');
